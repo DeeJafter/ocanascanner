@@ -2,8 +2,7 @@ const puppeteer = require('puppeteer');
 let fs = require('fs');
 const createArrayCsvWriter = require('csv-writer').createArrayCsvWriter;
 const MongoClient = require('mongodb').MongoClient;
-const EventEmitter = require('eventemitter3');
-const ObjectId = require('mongodb').ObjectId;
+
 
 // const client = new MongoClient(uri, { useNewUrlParser: true });
 const client = new MongoClient('mongodb://localhost:27017/test', {
